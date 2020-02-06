@@ -7,12 +7,14 @@
     display: inline-block;
     left: 35%; 
     top: 40vh;
+    -webkit-transition: all 0.1s ease-out;
   }
   #yes{
     position: absolute;
     display: inline-block;
     left: 70%; 
     top: 40vh;
+    -webkit-transition: all 0.3s ease-out;
   }
 #bg{
   position: fixed;
@@ -29,6 +31,16 @@
   background-position: 50%;
   -webkit-filter: blur(4px);
 }
-.swal2-title{
+.swal2-title, .swal2-content{
   color: azure !important;
+}
+.swal2-popup {
+  border-radius: 15px !important;
+}
+
+header h2 {
+  font-family: 'Pacifico';
+  font-size: 80px;
+  text-align: center;
+	margin-bottom: 30px;
 }

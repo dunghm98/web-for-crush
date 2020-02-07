@@ -44,3 +44,7 @@ header h2 {
   text-align: center;
 	margin-bottom: 30px;
 }
+header h4 {
+  font-family: 'Pacifico';
+  text-align: center;
+}

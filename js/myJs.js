@@ -16,10 +16,10 @@ function firstQuestion(){
     Swal.fire({
         title: 'He luu cậu!',
         text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
-        imageUrl: '../img/cuteCat.jpg',
+        imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("../img/iput-bg.jpg")',
+        background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
@@ -93,10 +93,10 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
-        background: '#fff url("../img/iput-bg.jpg")',
+        background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
-              url("../img/giphy2.gif")
+              url("img/giphy2.gif")
               left top
               no-repeat
             `,
@@ -112,7 +112,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#fff url("../img/iput-bg.jpg")',
+                background: '#fff url("img/iput-bg.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu 300.000',
                 text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',

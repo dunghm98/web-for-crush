@@ -15,11 +15,11 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
-        imageUrl: 'img/cuteCat.jpg',
+        text: 'Cậu có thể đút đít tôi không ><.',
+        imageUrl: 'img/fuyuri.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/concac.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
@@ -28,7 +28,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-    var audio = new Audio('sound/duck.mp3');
+    var audio = new Audio('sound/nhacdang.MPEG -4Audio');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
@@ -41,7 +41,7 @@ function firstQuestion(){
 }
 // move random button póition
 function moveButton() {
-    var audio = new Audio('sound/Swish1.mp3');
+    var audio = new Audio('sound/ugot.mp3');
     audio.play();
     if (screen.width<=600) {
         var x = Math.random() * 300;
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Đơn giản là trym cậu to vl ::3333 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho tớ lí do cậu thích đút đít tớ đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -120,9 +120,9 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
-                background: '#fff url("img/iput-bg.jpg")',
+                background: '#fff url("img/concac.jpg")',
                 title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                text: "Tối nay tớ qua đón cậu ra bụi chuối nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';

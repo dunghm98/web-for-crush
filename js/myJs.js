@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        text: 'Tui có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Tại AiHun cute nhứt ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -121,11 +121,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Tui biết mà ^^ Yêu truclam số 1',
+                text: "Nào rảnh vô làm vài ván cus. Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'https://www.facebook.com/callmehann1906';
                   }
             })
         }

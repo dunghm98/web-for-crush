@@ -3,7 +3,7 @@ const textConfig = {
   text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
   text3: "Cậu yêu tớ có phải không nào😙",
   text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm ny tớ rùi đó nha :v",
-  text5: "Không đâu, mình làm bạn vui hơn á :3333",
+  text5: "Mình làm bạn nha :3333",
   text6: "Yêu ơi là yêu <3",
   text7: "Trên thế giới hơn 7 tỉ người mà sao cậu lại yêu tớ :vvvv",
   text8: "Gửi cho tớ <3",
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://m.me/hoanganhluong1010";
           },
         });
       }

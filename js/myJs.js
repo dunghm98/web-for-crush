@@ -1,17 +1,15 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "Lô Lô chị ew!",
+  text2: "Ecó điều này muốn hỏi chị nah nhớ phải trả lời thật lòng nhaaa.",
+  text3: "Chị có iuu e không zọ ._.",
+  text5: "Ũa tr, ảo tưởng hã. T iu a Lam gòiiii",
+  text6: "IU vz l:)",
+  text7: "lói vì sao iu tao:))"
+  text9: "Vì e là bad girl chính cmn hiệu;)",
+  text10: "Ỏ e biết mà ^^ Yêu chị 300.000",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
-  text12: "Okii lunn <3",
+    "Tối mai sang nhà tao đi xe rồi mở partyyy nhaaaaaaaaaaa",
+  text12: "Okii lunn nah <3",
 };
 
 $(document).ready(function () {
@@ -35,10 +33,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "i.pinimg.com/originals/a4/fd/3c/a4fd3c48cf2f6e0b646c9a3572f9923a.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("i.pinimg.com/736x/e1/85/5a/e1855ad98f6e5ee7f067399bd06ea8d4.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -115,10 +113,10 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("i.pinimg.com/736x/e1/85/5a/e1855ad98f6e5ee7f067399bd06ea8d4.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
+                    url("i.pinimg.com/originals/df/52/db/df52db29c82e823e2aaca009881c18bb.jpg")
                     left top
                     no-repeat
                   `,
@@ -133,7 +131,7 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
+          background: '#fff url("i.pinimg.com/originals/df/52/db/df52db29c82e823e2aaca009881c18bb.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",

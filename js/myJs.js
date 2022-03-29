@@ -1,13 +1,13 @@
 const textConfig = {
   text1: "He luu Zun!",
-  text2: "Nghi có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
+  text2: "Nghi có điều này muốn hỏi Zun nhớ phải trả lời thật lòng nhaaa.",
   text3: "Zun Thích Nghi có phải không nào ._.",
   text4: "Nếu Zun ko trả lời mà thoát ra tức là muốn làm vợ Nghi òi rùi đó nha :v",
   text5: "Nghi mơ iii???",
   text6: "Thích ơi là thít <3",
   text7: "lí do Zun thích tớ đi :vvvv",
   text8: "Gửi cho tớ <3",
-  text9: "Vì cậu hiền vlllll",
+  text9: "Vì Nghi hiền vlllll",
   text10: "Tớ biết mà ^^ Yêu cậu 300.000",
   text11:
     "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",

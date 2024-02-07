@@ -1,12 +1,12 @@
 const textConfig = {
   text1: "He luu cậu!",
   text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
+  text3: "Chúc mừng năm mới",
+  text4: "Tết này lì xì tớ nhé!",
+  text5: "Đéo",
+  text6: "OK LUÔN",
+  text7: "Cảm ơn mày nhiều! Đây là STK của tao <3 mãi yêu",
+  text8: "Mãi yêu <3",
   text9: "Vì cậu đẹp try vlllll",
   text10: "Tớ biết mà ^^ Yêu cậu 300.000",
   text11:
@@ -17,7 +17,7 @@ const textConfig = {
 $(document).ready(function () {
   // process bar
   setTimeout(function () {
-    firstQuestion();
+    // firstQuestion();
     $(".spinner").fadeOut();
     $("#preloader").delay(350).fadeOut("slow");
     $("body").delay(350).css({
@@ -58,6 +58,7 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
+
   // move random button póition
   function moveButton() {
     var audio = new Audio("sound/Swish1.mp3");
@@ -114,14 +115,8 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<img src='img/qr1.png'/>",
       background: '#fff url("img/iput-bg.jpg")',
-      backdrop: `
-                    rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
-                    left top
-                    no-repeat
-                  `,
       showCancelButton: false,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
@@ -129,19 +124,19 @@ $(document).ready(function () {
       cancelButtonColor: "#f6cd61",
       confirmButtonText: textConfig.text8,
     }).then((result) => {
-      if (result.value) {
-        Swal.fire({
-          width: 900,
-          confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
-          title: textConfig.text10,
-          text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",
-          onClose: () => {
-            window.location = "http://fb.com";
-          },
-        });
-      }
+      // if (result.value) {
+      //   Swal.fire({
+      //     width: 900,
+      //     confirmButtonText: textConfig.text12,
+      //     background: '#fff url("img/iput-bg.jpg")',
+      //     title: textConfig.text10,
+      //     text: textConfig.text11,
+      //     confirmButtonColor: "#83d0c9",
+      //     onClose: () => {
+      //       window.location = "http://fb.com";
+      //     },
+      //   });
+      // }
     });
 
     $("#txtReason").focus(function () {

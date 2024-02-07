@@ -115,7 +115,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<img src='img/QR.png'/>",
+      html: "<img src='img/qr1.png'/>",
       background: '#fff url("img/iput-bg.jpg")',
       showCancelButton: false,
       confirmButtonColor: "#3085d6",

@@ -58,6 +58,7 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
+
   // move random button póition
   function moveButton() {
     var audio = new Audio("sound/Swish1.mp3");
